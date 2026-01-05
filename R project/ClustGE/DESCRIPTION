@@ -1,0 +1,27 @@
+Package: ClustGE
+Type: Package
+Title: Gene Expression Analysis and Clustering
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Giulia", "Di Virgilio",
+      email = "giulia.divirgilio@studenti.unimi.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Reading and preprocessing of expression data, data normalization, clustering, data visualization, and Gene Expression Enrichment Analysis (GSEA).
+    Continuation lines should be indented.
+Imports: SummarizedExperiment, Biobase, pheatmap, preprocessCore,
+        clusterProfiler, utils, ggplot2, reshape2, S4Vectors, stats,
+        igraph, FNN, enrichplot, rlang, ggdendro
+Suggests: testthat, dendextend, knitr, org.Hs.eg.db, rmarkdown
+VignetteBuilder: knitr
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+biocViews: Software, Clustering, GeneExpression, Normalization,
+        Visualization, GeneTarget, Preprocessing
+NeedsCompilation: no
+Packaged: 2025-08-21 09:09:54 UTC; giuliadivirgilio
+Author: Giulia Di Virgilio [aut, cre]
+Maintainer: Giulia Di Virgilio <giulia.divirgilio@studenti.unimi.com>
